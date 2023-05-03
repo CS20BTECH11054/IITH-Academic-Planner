@@ -1,0 +1,102 @@
+.Timetab{
+  position: relative;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 80%;
+    margin-top: 3px;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    margin: 50px;
+}
+
+.TabData{
+  padding: 10px;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #3b0b7b;
+  position: relative;
+  cursor: pointer;
+}
+
+.TabDataDay{
+  padding: 10px;
+  height: 80px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #3b0b7b;
+  position: relative;
+  cursor: pointer;
+  color: #c98f12;
+  background-color: #f2f2f2;
+  font-size: large;
+}
+
+.TabData.active{
+  background-color: #f2f2f2;
+}
+
+.TabData.Break{
+  background-color: #fae843;
+  color: #ed2121;
+}
+
+.timetable-cell {
+  position: relative;
+}
+
+.TabHead{
+  background-color: #c98f12;
+  padding: 10px;
+  height: 80px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #924040;
+  position: relative;
+  font-size: 18px;
+  color: #f3ebeb;
+  text-transform: uppercase;
+}
+
+.TimetableWindow{
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.TimetableOptsContainer{
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin-top:50px;
+  color:darkorange;
+  font-weight: bolder;
+}
+
+.AddSlotItems{
+  margin: 10px;
+}
+
+.AddSlotOkbtn{
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+}
+
+.Updatebtn{
+  margin: 30px;
+  margin-left: 1050px;
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: white;
+  width: 100px;
+  text-align: center;
+  
+}
