@@ -1,0 +1,79 @@
+.Tasks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1024px;
+    align-content: center;
+    margin-left:100px;
+    height:100%;
+}
+
+.Daily{
+
+    width:100%;
+    background-color: wheat;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-content: baseline;
+}
+
+.DailyTitle{
+    display: flex;
+    height:100%;
+    color:white;
+    font-size:bold;
+    align-items: center;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+
+.WeeklyTitle{
+    display: flex;
+    height:100%;
+    color:white;
+    font-size:bold;
+    align-items: center;
+    background-color: dodgerblue;
+    justify-content: center;
+}
+
+.AddTask{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 250px;
+    margin: 30px;
+}
+
+.AddTaskItemsHead{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: darkorange;
+    width: 250px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.AddTaskItems{
+    margin: 10px;
+}
+
+.TaskOkbtn{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.highlight{
+    color: dodgerblue;
+    background-color: lightsalmon;
+}

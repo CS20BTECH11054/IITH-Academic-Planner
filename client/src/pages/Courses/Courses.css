@@ -1,0 +1,137 @@
+.Coursescontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    flex-direction: column;
+    margin-left: 150px;
+    width: 900px;
+    margin-top: 30px;
+}
+
+.Coursestitle{
+    width: 900px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 200px;
+    font-size: medium;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+}
+
+.Coursesearchcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.CourseSearch{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    height: 18px;
+    width: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.CourseSearchinput{
+    height:18px;
+    width: 300px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 0px;
+    margin-left:20px;
+}
+
+.Courseitems{
+    color: darkorange;
+    text-align: center;
+    width: 200px;
+    border-left: solid 1px dodgerblue;
+    border-right: solid 1px dodgerblue;
+}
+
+.Courseitemsborder{
+    margin-top: 10px;
+    border-top: solid 5px dodgerblue;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 150px;
+    background-color: wheat;
+    border-collapse: collapse;
+}
+
+.Courserows{
+    border: solid 1px dodgerblue;
+    cursor: pointer;
+}
+
+.Courserows.active{
+    background-color: blue;
+    color: white;
+}
+
+.mycourses{
+    border: none;
+    align-self: flex-end;
+    background-color: white;
+    color: darkorange;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mycourses.active{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.selectclass{
+    height: 20px
+}
+
+.CoursesWindow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Buttonscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 250px;
+}
+
+.ButtonsCourses{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.GPA{
+    border: solid 1px dodgerblue;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-self: center;
+    margin: 20px;
+    padding: 2px;
+    align-self: center;
+}

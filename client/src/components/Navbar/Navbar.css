@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    height:50px;
+    background-color:darkorange;
+}
+
+.navbarcontainer{
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navtitle{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    font-weight: 100px;
+    color: white;
+}
+
+.Loginbutton{
+    border: none;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:dodgerblue;
+    border-radius: 4px;
+    color:white;
+    cursor: pointer;
+}
+
+.Loginuser{
+    border: none;
+    justify-content: center;
+    padding-top: 5px;
+    font-size: medium;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:dodgerblue;
+    border-radius: 4px;
+    color:darkorange;
+    cursor: pointer;
+}

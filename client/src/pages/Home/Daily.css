@@ -1,0 +1,13 @@
+.Dailycontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.Dailyitems{
+    color: darkorange;
+    font-weight: 100px;
+    padding:10px;
+}

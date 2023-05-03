@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    height:40px;
+    justify-content: right;
+    background-color:dodgerblue;
+}
+
+.headercontainer{
+    width: 100%;
+    max-width: 1024px;
+    justify-content:left;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    border: none;
+    justify-content: center;
+    background-color:dodgerblue;
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.items.active{
+    background-color: wheat;
+    border-radius: 0px 0px 4px 4px;
+    color: darkorange;
+    font-weight: 400px;
+}

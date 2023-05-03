@@ -1,0 +1,39 @@
+.profilecontainer{
+    background-color: wheat;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.profiletitle{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    width: 600px;
+    color: darkorange;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitbutton{
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    border: none;
+}
+
+.inputtext{
+    border-radius: 5px;
+    margin:20px;
+    width:300px;
+    border: solid 2px dodgerblue
+}

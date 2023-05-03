@@ -1,0 +1,188 @@
+.DeptSelectWindow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
+    max-width: 300px;
+    margin: 30px;
+    margin-left: 0px;
+}
+
+.DeptSelectQs{
+    color: darkorange;
+    margin: 20px;
+}
+
+.DeptSelectOkbtn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    width: 30px;
+    text-align: center;
+    align-self: center;
+}
+
+.CourseRoadWindow{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
+    margin: 30px;
+    position: absolute;
+}
+
+.CourseRoadSemContainer{
+    max-width:900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.CourseRoadSemContainer.active{
+    border: solid 5px dodgerblue;
+}
+
+.CourseRoadSemTitleContainer{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkorange;
+    color:white
+}
+
+.CourseRoadSemCourseContainer{
+    max-width: 900px;
+    height: auto;
+    min-height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.CourseRoadSemCourseItems{
+    background-color: lightgreen;
+    max-width: 100px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.CourseRoadSemCourseItems.active{
+    background-color: lightsalmon;
+}
+
+.CourseRoadOptsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+    margin-left: 1000px;
+    background-color: lightgray;
+    width: 350px;
+}
+
+.CourseRoadOptsItems{
+    color: darkorange;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.CourseRoadSearch{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    height: 18px;
+    width: 18px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+
+.CourseInfoContainer{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+    margin-top: 30px;
+    background-color: dodgerblue;
+    color: white
+}
+
+.CourseInfoTitle{
+    background-color: wheat;
+    color: darkorange;
+    width:298px;
+    text-align: center;
+    border-top: solid 1px dodgerblue;
+    border-left: solid 1px dodgerblue;
+    border-right: solid 1px dodgerblue;
+}
+
+.CourseInfoItemsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.CourseInfoItems1{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: darkorange;
+}
+
+.CourseRoadTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.CourseRoadTableRow{
+    border-top:solid 1px dodgerblue;
+    border-bottom: solid 1px dodgerblue;
+}
+
+.CourseRoadTableRow.active{
+    background-color: dodgerblue;
+}
+
+.CourseRoadTableItems{
+    border-left: solid 1px dodgerblue;
+    border-right: solid 1px dodgerblue;
+    width: 150px;
+    cursor: pointer;
+}
+
+.CourseRoadMsg{
+    color: red;
+    background-color: lightgray;
+}
+
+.CourseInfoTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CourseInfoDelete{
+    background-color: darkorange;
+    color:dodgerblue;
+    cursor: pointer
+}
